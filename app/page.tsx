@@ -4,7 +4,7 @@ import axios from "axios";
 import { FormEvent, useEffect, useState } from "react";
 import { BsSearch } from "react-icons/bs";
 import Weather from "./components/Weather";
-import { WeatherData }  from "@/next-env";
+import WeatherData from "./types";
 import { ToastContainer,toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 

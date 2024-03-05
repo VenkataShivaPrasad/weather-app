@@ -1,4 +1,4 @@
-import { WeatherData } from "@/next-env"
+import WeatherData from "../types"
 
 
 const Weather = ({main,name,weather,wind}:WeatherData) => {
