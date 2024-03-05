@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Weather App 🚀🔥
+Welcome to the Weather App project! This web application is built using Next.js, OpenWeather API, and Axios to fetch weather details based on the entered city. Additionally, it provides a React toast warning if the entered city is incorrect.
 
-## Getting Started
+# Getting Started
+# Prerequisites
+Make sure you have Node.js and npm installed on your machine.
 
-First, run the development server:
+# Installation
+Clone the repository.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+`git clone https://github.com/VenkataShivaPrasad/weather-app.git`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Change into the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`cd weather-app`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+`npm install` 
 
-To learn more about Next.js, take a look at the following resources:
+# Usage
+To start the development server and view the app, run the following command:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`npm run dev`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Your weather app should now be accessible at http://localhost:3000.
 
-## Deploy on Vercel
+# Features
+<h4>1. City-based Weather Details:</h4> Enter the name of the city and get real-time weather information.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h4>2. Error Handling with Toasts:</h4> If the entered city is incorrect or there is an issue with fetching data, a React toast warning will be displayed to provide feedback to the user.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h4>3. Responsive Design:</h4> The app is designed to be responsive, ensuring a seamless experience across various devices.
+
+
+# Built with
+1. Next.js - The React framework for building web applications.
+2. [OpenWeather API](https://openweathermap.org/api) - The API for retrieving weather data.
+3. Axios - A promise-based HTTP client for making requests.
+   
+# Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
+
+# Contact
+For any inquiries or feedback, please contact.
+
+venkatashivaprasad.nannuri@gmail.com
+
+   
+Happy coding! 🌦️
