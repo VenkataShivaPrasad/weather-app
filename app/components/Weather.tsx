@@ -19,7 +19,7 @@ const Weather = ({main,name,weather,wind}:WeatherData) => {
                     weather?.map((w)=>(
 
                         <>
-                        <Image src={`http://openweathermap.org/img/wn/${w.icon}@2x.png`} alt="icon" />
+                        <Image src={`http://openweathermap.org/img/wn/${w.icon}@2x.png`} alt="icon" width={100} height={100}/>
                         <p className=" font-semibold text-xl text-center">{w.main}</p>
                         </>
                     ))
@@ -31,7 +31,7 @@ const Weather = ({main,name,weather,wind}:WeatherData) => {
         </div>
 
     </div>
-        <div className="border shadow-xl max-sm:w-[80%] md:w-[600px] m-auto  rounded-lg flex flex-col  p-2">
+        <div className="border shadow-2xl max-sm:w-[80%] md:w-[600px] m-auto  rounded-lg flex flex-col p-2">
             <p className="text-center text-[1.5rem] pb-7 mt-6 font-medium">Weather in {name}</p>
             <div className="flex max-sm:flex-col max-sm:gap-5 p-5 text-center justify-between">
                 <div>
