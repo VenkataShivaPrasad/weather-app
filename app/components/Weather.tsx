@@ -1,3 +1,4 @@
+import Image from "next/image"
 import WeatherData from "../types"
 
 
@@ -18,7 +19,7 @@ const Weather = ({main,name,weather,wind}:WeatherData) => {
                     weather?.map((w)=>(
 
                         <>
-                        <img src={`http://openweathermap.org/img/wn/${w.icon}@2x.png`} />
+                        <Image src={`http://openweathermap.org/img/wn/${w.icon}@2x.png`} alt="icon" />
                         <p className=" font-semibold text-xl text-center">{w.main}</p>
                         </>
                     ))
